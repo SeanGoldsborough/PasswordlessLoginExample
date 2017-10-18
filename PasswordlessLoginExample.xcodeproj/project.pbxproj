@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		826FED772365A1C28D7D5305 /* Pods_PasswordlessLoginExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6675B02D4D71027E6B8F44 /* Pods_PasswordlessLoginExample.framework */; };
 		C64EFD451F979DA0003649EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64EFD441F979DA0003649EE /* AppDelegate.swift */; };
 		C64EFD471F979DA0003649EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64EFD461F979DA0003649EE /* ViewController.swift */; };
 		C64EFD4A1F979DA0003649EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64EFD481F979DA0003649EE /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		C64EFD521F979DA0003649EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64EFD501F979DA0003649EE /* LaunchScreen.storyboard */; };
 		C64EFD5D1F979DA0003649EE /* PasswordlessLoginExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64EFD5C1F979DA0003649EE /* PasswordlessLoginExampleTests.swift */; };
 		C64EFD681F979DA0003649EE /* PasswordlessLoginExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64EFD671F979DA0003649EE /* PasswordlessLoginExampleUITests.swift */; };
+		C64EFD761F979EFC003649EE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C64EFD751F979EFC003649EE /* Podfile */; };
+		C64EFD771F979EFC003649EE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C64EFD751F979EFC003649EE /* Podfile */; };
+		C64EFD781F979EFC003649EE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C64EFD751F979EFC003649EE /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		956063B0B4383F077C68F64D /* Pods-PasswordlessLoginExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordlessLoginExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-PasswordlessLoginExample/Pods-PasswordlessLoginExample.release.xcconfig"; sourceTree = "<group>"; };
+		ADA74BC4989B284FD4C5C375 /* Pods-PasswordlessLoginExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordlessLoginExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PasswordlessLoginExample/Pods-PasswordlessLoginExample.debug.xcconfig"; sourceTree = "<group>"; };
 		C64EFD411F979DA0003649EE /* PasswordlessLoginExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordlessLoginExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64EFD441F979DA0003649EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C64EFD461F979DA0003649EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,8 @@
 		C64EFD631F979DA0003649EE /* PasswordlessLoginExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordlessLoginExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64EFD671F979DA0003649EE /* PasswordlessLoginExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordlessLoginExampleUITests.swift; sourceTree = "<group>"; };
 		C64EFD691F979DA0003649EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C64EFD751F979EFC003649EE /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		FD6675B02D4D71027E6B8F44 /* Pods_PasswordlessLoginExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordlessLoginExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				826FED772365A1C28D7D5305 /* Pods_PasswordlessLoginExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +85,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75FF8968F17E4CA9308E2881 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADA74BC4989B284FD4C5C375 /* Pods-PasswordlessLoginExample.debug.xcconfig */,
+				956063B0B4383F077C68F64D /* Pods-PasswordlessLoginExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A513B1FC259F1A949DDDF97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD6675B02D4D71027E6B8F44 /* Pods_PasswordlessLoginExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C64EFD381F979DA0003649EE = {
 			isa = PBXGroup;
 			children = (
+				C64EFD751F979EFC003649EE /* Podfile */,
 				C64EFD431F979DA0003649EE /* PasswordlessLoginExample */,
 				C64EFD5B1F979DA0003649EE /* PasswordlessLoginExampleTests */,
 				C64EFD661F979DA0003649EE /* PasswordlessLoginExampleUITests */,
 				C64EFD421F979DA0003649EE /* Products */,
+				75FF8968F17E4CA9308E2881 /* Pods */,
+				7A513B1FC259F1A949DDDF97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C64EFD6C1F979DA0003649EE /* Build configuration list for PBXNativeTarget "PasswordlessLoginExample" */;
 			buildPhases = (
+				53D530F3F028FF32E900A40F /* [CP] Check Pods Manifest.lock */,
 				C64EFD3D1F979DA0003649EE /* Sources */,
 				C64EFD3E1F979DA0003649EE /* Frameworks */,
 				C64EFD3F1F979DA0003649EE /* Resources */,
+				1FDA71AA93D3439D0D6DFC15 /* [CP] Embed Pods Frameworks */,
+				E105A6B222B85B5B301C6F42 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,6 +269,7 @@
 			files = (
 				C64EFD521F979DA0003649EE /* LaunchScreen.storyboard in Resources */,
 				C64EFD4F1F979DA0003649EE /* Assets.xcassets in Resources */,
+				C64EFD761F979EFC003649EE /* Podfile in Resources */,
 				C64EFD4A1F979DA0003649EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64EFD771F979EFC003649EE /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,10 +286,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64EFD781F979EFC003649EE /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FDA71AA93D3439D0D6DFC15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PasswordlessLoginExample/Pods-PasswordlessLoginExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PasswordlessLoginExample/Pods-PasswordlessLoginExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53D530F3F028FF32E900A40F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PasswordlessLoginExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E105A6B222B85B5B301C6F42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PasswordlessLoginExample/Pods-PasswordlessLoginExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C64EFD3D1F979DA0003649EE /* Sources */ = {
@@ -428,6 +529,7 @@
 		};
 		C64EFD6D1F979DA0003649EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADA74BC4989B284FD4C5C375 /* Pods-PasswordlessLoginExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +545,7 @@
 		};
 		C64EFD6E1F979DA0003649EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 956063B0B4383F077C68F64D /* Pods-PasswordlessLoginExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

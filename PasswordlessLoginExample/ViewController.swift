@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import FacebookLogin
+import FacebookShare
 
 class ViewController: UIViewController {
 
